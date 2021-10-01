@@ -5,9 +5,6 @@ public class Ball {
     private double x = 0.0;
     private double y = 0.0;
 
-    private double xspeed = 0.0;
-    private double yspeed = 0.0;
-
     public Ball(){
         this.x = 0;
         this.y = 0;
@@ -37,11 +34,6 @@ public class Ball {
     public void setXY(double x, double y){
         this.x = x;
         this.y = y;
-    }
-
-    public void setXYspeed(double x, double y){
-        this.xspeed = x;
-        this.yspeed = y;
     }
 
     public void move(double xDisp, double yDisp){
